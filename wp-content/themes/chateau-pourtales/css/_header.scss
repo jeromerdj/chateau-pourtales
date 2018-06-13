@@ -1,0 +1,26 @@
+header {
+    padding: 40px 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right:0;
+    z-index: 4;
+    button#responsive-menu-button {
+        background: none!important;
+        &:hover {
+            background: none;
+        }
+    }
+    .responsive-menu-open button#responsive-menu-button:hover, .responsive-menu-open button#responsive-menu-button:focus, button#responsive-menu-button:hover, button#responsive-menu-button:focus,.responsive-menu-open button#responsive-menu-button {
+        background: none!important;
+    }
+    ul#responsive-menu {
+    margin-top: 109px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header.header.clear.container {
+        padding-left: 20px;
+    }
+}

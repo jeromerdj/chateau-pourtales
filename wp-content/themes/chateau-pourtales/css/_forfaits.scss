@@ -1,0 +1,84 @@
+.forfaits1 {
+    padding:100px 0px;
+    .description {
+        margin-bottom: 50px;
+        padding: 0 10%;
+        text-align: center;
+    }
+    h2 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .single-forfait {
+        background-size: cover;
+        background-position: center;
+        height: 380px;
+        transition: 0.2s ease;
+        &:hover .gradient-black {
+            height: 100%;
+
+        }
+        .gradient-black {
+            position: absolute;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,1+100 */
+            background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+            bottom: 0;
+            height: 50%;
+            width:100%;
+            transition: 0.3s ease;
+        }
+        h3 {
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 22px;
+                position: absolute;
+                bottom: 50px;
+                left: 40px;
+                z-index: 2;
+                img {
+                    margin: 0 8px;
+                    width: 11px;
+                }
+            }
+        }
+    }
+    .forfait-cadeau {
+        .cadeau {
+            background-position: center;
+            background-size: cover;
+            height: 80px;
+            margin-top:20px;
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 22px;
+                line-height: 80px;
+                margin-left: 40px;
+                img {
+                    margin: 0 8px;
+                    width: 11px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .description {
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .forfaits1 {
+        h2 {
+            text-align: left!important;
+            padding-left: 20px;
+        }
+    }
+
+}

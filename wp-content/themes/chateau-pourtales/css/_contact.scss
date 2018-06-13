@@ -1,0 +1,43 @@
+.contact {
+    .haut-page {
+        background-position: center;
+    }
+    .filtre-black {
+        position: absolute;
+        background: black;
+        height: 100%;
+        bottom: 0;
+        width: 100%;
+        opacity: 0.6;
+        z-index:1;
+    }
+    .texte {
+        z-index: 3;
+    }
+    .form-contact {
+        padding:90px 20px;
+        input, label, textarea {
+            width: 100%;
+        }
+        input[type="submit"] {
+            width: auto;
+            float:right;
+            color: white;
+            background: #e3b85e;
+            font-weight: bold;
+            padding:0px 20px;
+            margin-top:10px;
+            display: inline-block;
+            transition: 0.3s ease;
+            font-size: 18px;
+            border: none;
+            width: inherit;
+            height: 37px;
+            &:hover {
+                text-decoration: none;
+                color: white;
+                background: #cea755;
+            }
+        }
+    }
+}

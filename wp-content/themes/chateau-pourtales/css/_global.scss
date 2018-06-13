@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #454545;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+h2 {
+    font-size:26px;
+}
+h3 {
+    font-size: 22px;
+}
+
+.btn-global {
+    color: white;
+    background: #e3b85e;
+    font-weight: 400;
+    padding:0px 20px;
+    margin-top:20px;
+    display: inline-block;
+    transition: 0.3s ease;
+    font-size: 18px;
+    border: none;
+    width: inherit;
+    height: 37px;
+    &:hover {
+        text-decoration: none;
+        color: white;
+        background: #cea755;
+    }
+}
+
+.haut-page{
+    height: 590px;
+    background-size: cover;
+    color: white;
+    img {
+        margin: 20px 0;
+    }
+    h2 {
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: normal;
+    }
+}
+
+.filet {
+    height: 60px;
+    width: 2px;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    bottom: 0;
+    background: #e3b85e;
+}
+
+div#responsive-menu-container {
+    -webkit-box-shadow: -1px 10px 26px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 10px 26px 0px rgba(0,0,0,0.27);
+    box-shadow: -1px 10px 26px 0px rgba(0,0,0,0.27);
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 30px!important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    div#responsive-menu-container {
+        width: 50%;
+    }
+}
